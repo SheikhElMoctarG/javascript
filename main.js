@@ -1,4 +1,5 @@
 const main = require("./Our");
 (async ()=>{
-await main.
+const name = await main.getUN();
+console.log(await name);
 })();
