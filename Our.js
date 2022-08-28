@@ -4,7 +4,7 @@ async function after(s) {
   });
 };
 
-module.exports = async()=>{
+module.exports.getUN = async()=>{
 await after(15).then(()=> {
 return "Sheikh El-Moctar";
 });
